@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>solitaire</class>
+ <widget class="QMainWindow" name="solitaire">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>808</width>
+    <height>606</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Solitaire</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(50, 168, 82)
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="enter_name_field">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>190</y>
+      <width>261</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color : white;
+background-color: rgb(54, 153, 81);
+padding: 20px;
+border-style: none;
+border-radius: 25px;
+hover background-color: rgb(52, 140, 76);
+
+</string>
+    </property>
+    <property name="text">
+     <string>Enter Player Name here! </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="easy_mode_btn">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>310</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color : white;
+background-color: rgb(54, 153, 81);
+padding: 20px;
+text-align: center;
+border-style: none;
+border-radius: 25px;
+hover background-color: rgb(52, 140, 76);</string>
+    </property>
+    <property name="text">
+     <string>Play Easy Mode</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="hard_mode_btn">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>400</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color : white;
+background-color: rgb(54, 153, 81);
+padding: 20px;
+text-align: center;
+border-style: none;
+border-radius: 25px;
+hover background-color: rgb(52, 140, 76);</string>
+    </property>
+    <property name="text">
+     <string>Play Difficult Mode</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="tutorial_btn">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>490</y>
+      <width>171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color : white;
+background-color: rgb(54, 153, 81);
+padding: 20px;
+text-align: center;
+border-style: none;
+border-radius: 25px;
+hover background-color: rgb(52, 140, 76);</string>
+    </property>
+    <property name="text">
+     <string>See Tutorial</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="logo_txt">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>50</y>
+      <width>471</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;
+font-family: Monospace; 
+font-size: 70px;</string>
+    </property>
+    <property name="text">
+     <string>SOLITAIRE ♧</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="submit">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>190</y>
+      <width>121</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color : white;
+background-color: rgb(54, 153, 81);
+padding: 20px;
+text-align: center;
+border-style: none;
+border-radius: 25px;
+hover background-color: rgb(52, 140, 76);</string>
+    </property>
+    <property name="text">
+     <string>SUBMIT</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>808</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="test.qrc"/>
+ </resources>
+ <connections/>
+</ui>

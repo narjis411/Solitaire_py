@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Tutorial</class>
+ <widget class="QMainWindow" name="Tutorial">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Tutorial</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(50, 168, 82)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="explanation_box">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>80</y>
+      <width>741</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(94, 189, 120);
+font-family: Arial;
+padding: 4px;
+font-size: 17px;
+</string>
+    </property>
+    <property name="text">
+     <string>Solitaire is a card game that is known globally. It is loved by many and considered a classic game
+throughout the world. It utilises a standard deck of 25 cards and is then divided and grouped 
+according to the foundational suits: hearts, diamonds, spades, and clubs. 
+This version of Solitaire is delivered in two modes: Easy and difficult. It is slightly different
+and more enjoyable. 
+
+Easy mode: 
+The objective of this game is to stack cards in a pile/column, where each car going from up to down
+in the same number but from a different suit.  E.g, to win, the first column should be a stack of 
+“2 of hearts”, “2 of diamonds”, “2 of spades” and “2 of clubs”. Consequently, the same could be 
+said about the other piles. The first pile to be completed reaches the game objective and the 
+game is won. To win, a player must click the “deal cards” button at the top, which deals a card
+ that can be played. Be cautious though, as the number of cards to be dealt is limited!
+If cards dealt reaches the end and the game objective hasn’t been met, it is game over.
+The window title will display “Game Over!” at the top. 
+
+Difficult mode:
+Similar to easy mode, but a bit more advanced. This level asks you to complete ALL the cards and
+place them in foundational piles, going from up to down, according to their number and suit. 
+However, this time, the dealing card is not limited, and players can deal with as many cards as
+they want.  
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="heading">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>0</y>
+      <width>351</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;
+font-family: Monospace; 
+font-size: 70px;</string>
+    </property>
+    <property name="text">
+     <string>TUTORIAL</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
